@@ -1,0 +1,33 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Local signing credentials
+*.jks
+*.keystore
+/keystore.properties
+
+# IDE, build outputs, and local project materials
+/.idea/
+/.kotlin/
+/.perfcheck/
+/.workbuddy/
+/dist/
+/apk_analysis/
+/icon_draft/
+/jadx.zip
+*.apk
+*.aab
+/腕连手表助手V3.4_接口清单.md

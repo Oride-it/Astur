@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 启动页图标：深蓝圆盘 + AI 双星芒（与应用图标同款设计） -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:width="48dp"
+        android:height="48dp"
+        android:gravity="center">
+        <shape android:shape="oval">
+            <solid android:color="#10162E" />
+        </shape>
+    </item>
+    <item
+        android:width="48dp"
+        android:height="48dp"
+        android:gravity="center">
+        <vector
+            android:width="24dp"
+            android:height="24dp"
+            android:viewportWidth="24"
+            android:viewportHeight="24">
+            <!-- 主星芒：电光蓝（与图标/App 主题同源，24 视图按 108 设计等比缩放） -->
+            <path
+                android:fillColor="#7C9CFF"
+                android:pathData="M 11.33 6.67 C 11.7 9.78, 14.44 12.52, 17.55 12.89 C 14.44 13.26, 11.7 16, 11.33 19.11 C 10.96 16, 8.22 13.26, 5.11 12.89 C 8.22 12.52, 10.96 9.78, 11.33 6.67 Z" />
+            <!-- 伴星：亮蓝 -->
+            <path
+                android:fillColor="#C3D0FF"
+                android:pathData="M 16.33 6 C 16.44 6.95, 17.27 7.78, 18.22 7.89 C 17.27 8, 16.44 8.83, 16.33 9.78 C 16.22 8.83, 15.39 8, 14.44 7.89 C 15.39 7.78, 16.22 6.95, 16.33 6 Z" />
+        </vector>
+    </item>
+</layer-list>
